@@ -1,0 +1,634 @@
+[
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_more_vert_white.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxhdpi/ic_more_vert_white.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_fragment_signup_password.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/fragment_signup_password.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_arrow_forward_white.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxhdpi/ic_arrow_forward_white.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_icon_default_avatar.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/icon_default_avatar.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_erasemsg_onboarding.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/erasemsg_onboarding.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable_unread_indicator.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable/unread_indicator.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable_button_white.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable/button_white.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/menu_menu_onboarding.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/menu/menu_onboarding.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_fragment_device_key.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/fragment_device_key.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_item_friend_search.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/item_friend_search.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable_rounded_bg_blue.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable/rounded_bg_blue.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_arrow_forward_white.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-hdpi/ic_arrow_forward_white.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_fragment_signup_username.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/fragment_signup_username.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/menu_menu_profile_muted.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/menu/menu_profile_muted.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_stat_logo.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-mdpi/ic_stat_logo.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/menu_menu_help.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/menu/menu_help.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable_ic_app_logo_background.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable/ic_app_logo_background.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-anydpi_ic_identity_backup.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-anydpi/ic_identity_backup.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable_rounded_bg_red.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable/rounded_bg_red.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_pick_contact_fragment.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/pick_contact_fragment.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_fragment_onboarding.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/fragment_onboarding.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_fingerprint.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-xhdpi/ic_fingerprint.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_activity_create_chat.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/activity_create_chat.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_how_to_contacts.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/how_to_contacts.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_arrow_forward_white.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-mdpi/ic_arrow_forward_white.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/menu_menu_message.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/menu/menu_message.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_activity_onboarding.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_more_vert_white.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xhdpi/ic_more_vert_white.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_vanishlogo.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-xxxhdpi/vanishlogo.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/raw_prod_public_cert.cer.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/raw/prod_public_cert.cer"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_in_channel_message.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/in_channel_message.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_btn_confirm_white.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/btn_confirm_white.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/anim_slide_out_bottom.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/anim/slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_fingerprint.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-mdpi/ic_fingerprint.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_fragment_help.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/fragment_help.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_activity_incoming_call.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/activity_incoming_call.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/menu_menu_profile_unmuted.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/menu/menu_profile_unmuted.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_call_white_24dp.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/ic_call_white_24dp.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_fragment_settings.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/menu_menu_chats.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/menu/menu_chats.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_how_to_vanish.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/how_to_vanish.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable_picture_placeholder.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable/picture_placeholder.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_fragment_create_group_chat.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/fragment_create_group_chat.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_secure_onboarding.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/secure_onboarding.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_identity_backup.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-hdpi/ic_identity_backup.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_identity_backup.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxhdpi/ic_identity_backup.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_fingerprint.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-xxhdpi/ic_fingerprint.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_search_white.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xhdpi/ic_search_white.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/menu_menu_signup_password.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/menu/menu_signup_password.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_search_white.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-mdpi/ic_search_white.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable_rounded_bg_green.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable/rounded_bg_green.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable_button_light_green.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable/button_light_green.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_icon_app_logo.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-xxhdpi/icon_app_logo.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_fingerprint.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-xxxhdpi/ic_fingerprint.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_item_contact.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/item_contact.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/menu_menu_signup_username.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/menu/menu_signup_username.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_user_control_mask.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/user_control_mask.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_arrow_forward_white.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xhdpi/ic_arrow_forward_white.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_arrow_forward_white.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/ic_arrow_forward_white.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_stat_logo.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxhdpi/ic_stat_logo.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_btn_filter.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/btn_filter.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_add_white_24dp.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/ic_add_white_24dp.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_small_video_view_dock.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/small_video_view_dock.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-hdpi_icon_app_logo.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-hdpi/icon_app_logo.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_video_profile_item.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/video_profile_item.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_stat_logo.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-hdpi/ic_stat_logo.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/menu_menu_create_chat.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/menu/menu_create_chat.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_more_vert_white.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-hdpi/ic_more_vert_white.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_btn_mute.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/btn_mute.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_how_to_call.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/how_to_call.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-xhdpi_icon_app_logo.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-xhdpi/icon_app_logo.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_activity_search_friend.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/activity_search_friend.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/xml_searchable.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/xml/searchable.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_more_vert_white.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/ic_more_vert_white.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_activity_identity_backup.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/activity_identity_backup.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/menu_menu_setup_profile.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/menu/menu_setup_profile.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_btn_video.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/btn_video.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-mdpi_vanishlogo.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-mdpi/vanishlogo.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-mdpi_icon_app_logo.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-mdpi/icon_app_logo.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_activity_dashboard.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_btn_endcall.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/btn_endcall.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_pager_layout.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/pager_layout.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_fragment_pick_contact.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/fragment_pick_contact.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-xhdpi_vanishlogo.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-xhdpi/vanishlogo.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_activity_message_list.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/activity_message_list.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/menu_menu_dashboard.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/menu/menu_dashboard.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_search_white.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxhdpi/ic_search_white.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-hdpi_vanishlogo.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-hdpi/vanishlogo.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_btn_switch_camera.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/btn_switch_camera.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_how_to_message.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/how_to_message.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_item_chat.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/item_chat.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_icon_muted.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/icon_muted.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_identity_backup.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-mdpi/ic_identity_backup.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/menu_menu_contacts.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/menu/menu_contacts.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_settings_white_24dp.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/ic_settings_white_24dp.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_call_onboarding.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/call_onboarding.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_identity_backup.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xhdpi/ic_identity_backup.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_call_end_white_24dp.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/ic_call_end_white_24dp.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_fragment_setup_profile.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/fragment_setup_profile.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_activity_create_group_chat.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/activity_create_group_chat.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_activity_call.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/activity_call.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_more_vert_white.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-mdpi/ic_more_vert_white.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_icon_speaker.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/icon_speaker.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_fingerprint.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-hdpi/ic_fingerprint.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_dialog_progress.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/dialog_progress.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_fragment_login.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_vanishlogo.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-xxhdpi/vanishlogo.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/menu_menu_login.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/menu/menu_login.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_activity_thumb_verification.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/activity_thumb_verification.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_stat_logo.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/ic_stat_logo.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/menu_menu_create_group_chat.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/menu/menu_create_group_chat.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable_rounded_bg.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable/rounded_bg.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_fragment_chats.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/fragment_chats.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_btn_keyboard_hide.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/btn_keyboard_hide.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_search_white.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/ic_search_white.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_createchat.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/createchat.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_btn_message.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/btn_message.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_activity_help.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/activity_help.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_stat_logo.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xhdpi/ic_stat_logo.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/menu_menu_seach_friend.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/menu/menu_seach_friend.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/anim_slide_in_bottom.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/anim/slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_btn_speaker.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/btn_speaker.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_pop_pager_list.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/pop_pager_list.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_icon_app_logo.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-xxxhdpi/icon_app_logo.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_search_white.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-hdpi/ic_search_white.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_btn_voice.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/btn_voice.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_fragment_contact_details.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/fragment_contact_details.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_item_header.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/item_header.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/xml_file_paths.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/xml/file_paths.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_vanishlogo.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/drawable-xxxhdpi/vanishlogo.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_fragment_contacts.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/fragment_contacts.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_activity_setup_profile.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/activity_setup_profile.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_activity_fullscreen_photo_preview.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/activity_fullscreen_photo_preview.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_video_view_container.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/video_view_container.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_activity_contact_details.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/activity_contact_details.xml"
+    },
+    {
+        "merged": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/build/intermediates/res/merged/debug/layout_activity_signup.xml.flat",
+        "source": "/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/res/layout/activity_signup.xml"
+    }
+]

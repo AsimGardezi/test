@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="@string/login_title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_22" />
+
+    <com.kucherenko.RxValidationTextInputLayout
+        android:id="@+id/tilUserName"
+        style="@style/LoginTextLayout"
+        app:error="@string/error_username"
+        app:errorTextAppearance="@style/TextAppearance.AppCompat.Small.Error"
+        app:help="@string/help_username"
+        app:helperTextAppearance="@style/TextAppearance.AppCompat.Small.Helper"
+        app:regex="@string/regex_username">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/username"
+            style="@style/LoginTextInput"
+            android:hint="@string/hint_username"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:singleLine="true" />
+
+    </com.kucherenko.RxValidationTextInputLayout>
+
+    <com.kucherenko.RxValidationTextInputLayout
+        android:id="@+id/tilPassword"
+        style="@style/LoginTextLayout"
+        app:error="Invalid password"
+        app:errorTextAppearance="@style/TextAppearance.AppCompat.Small.Error"
+        app:help="3 lower case, 3 symbols and 2 upper case"
+        app:helperTextAppearance="@style/TextAppearance.AppCompat.Small.Helper"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@android:color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            style="@style/LoginTextInput"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword" />
+
+    </com.kucherenko.RxValidationTextInputLayout>
+
+    <Button
+        android:id="@+id/authenticate"
+        android:layout_width="@dimen/onboarding_button_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_16"
+        android:background="@drawable/button_light_green"
+        android:enabled="false"
+        android:text="@string/authenticate"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_18" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:text="By signing up you agree to our"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txtTos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:text=" Terms of Service"
+            android:textColor="@color/lightGreen"
+
+            />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:visibility="invisible" />
+
+</LinearLayout>

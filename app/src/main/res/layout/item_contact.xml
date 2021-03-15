@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/contactContent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding_8">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/profilePicture"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/unread_indicator"
+        android:scaleType="centerCrop"
+        app:riv_border_color="@color/black"
+        app:riv_border_width="2dp"
+        app:riv_corner_radius="20dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_8"
+        android:layout_marginLeft="@dimen/margin_8"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_18" />
+
+    <TextView
+        android:id="@+id/reject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:gravity="center"
+        android:text="@string/reject"
+        android:textColor="@color/lightGray"
+        android:textSize="@dimen/font_18"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:gravity="center"
+        android:text="@string/cancel_invite"
+        android:textColor="@color/lightGray"
+        android:textSize="@dimen/font_18"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:gravity="center"
+        android:text="@string/accept"
+        android:textColor="@color/lightGreen"
+        android:textSize="@dimen/font_18"
+        android:visibility="gone" />
+</LinearLayout>

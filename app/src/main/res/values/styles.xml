@@ -1,0 +1,105 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/lightGreen</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="FullscreenTransparent" parent="FullscreenTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="LoginTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorAccent">@color/lightGreen</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:actionMenuTextColor">@color/lightGreen</item>
+    </style>
+
+    <style name="DarkAppBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/lightBlack</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="BlackAppBar" parent="DarkAppBar">
+        <item name="colorPrimary">@color/black</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="LoginTextInput">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="colorAccent">@color/lightGreen</item>
+        <item name="android:textColorHint">@color/lightGray</item>
+        <item name="android:textSize">@dimen/font_18</item>
+    </style>
+
+    <style name="LoginTextLayout">
+        <item name="errorEnabled">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="colorAccent">@color/lightGreen</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_8</item>
+        <item name="android:padding">@dimen/padding_8</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+
+    <style name="contact_detail_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_16</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_18</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_16</item>
+    </style>
+
+    <style name="TextView.Medium" parent="TextView">
+        <item name="android:textSize">@dimen/font_18</item>
+    </style>
+
+    <style name="NotificationUIText">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowColor">@color/transparent_75_white</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Small.Helper">
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Small.Error">
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+    </style>
+</resources>

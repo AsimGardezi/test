@@ -1,0 +1,126 @@
+# Customise this file, documentation can be found here:
+# https://github.com/fastlane/fastlane/tree/master/fastlane/docs
+# All available actions: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Actions.md
+# can also be listed using the `fastlane actions` command
+
+# Change the syntax highlighting to Ruby
+# All lines starting with a # are ignored when running `fastlane`
+
+# If you want to automatically update fastlane if a new version is available:
+# update_fastlane
+
+# This is the minimum version number required.
+# Update this, if you use features of a newer version
+fastlane_version "1.104.0"
+
+default_platform :android
+
+platform :android do
+  before_all do
+    # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
+    ENV["CRASHLYTICS_API_TOKEN"] = "c8aea3a092aeace9732a289ef3a02f4ad5594c1c"
+    ENV["CRASHLYTICS_BUILD_SECRET"] = "87ae9211133cd4dc6b18089900ae93d29d51171648bd96175706ed1e09c21ffe"
+  end
+
+  lane :crashlyticsUpload do |opt|
+            config = config(dest: opt[:dest])
+            buildInternal(dest: config[:dest])
+            crashlytics
+  end
+
+    lane :crashlyticsUploadCircle do |opt|
+            config = config(dest: opt[:dest])
+            crashlyticsInternal(path: config[:path], apkName: config[:apkName])
+    end
+
+  private_lane :config do |opt|
+        dest = opt[:dest]
+        config = Hash.new
+        case dest
+        when "stage"
+                config[:dest] = "Stage"
+                config[:path] = "stage"
+                config[:apkName] = "stage"
+        when "master"
+                config[:dest] = "Release"
+                config[:path] = "release"
+                config[:apkName] = "release"
+        else
+                config[:dest] = "Debug"
+                config[:path] = "debug"
+                config[:apkName] = "debug"
+        end
+        config
+  end
+
+  lane :build do |opt|
+          config = config(dest: opt[:dest])
+          buildInternal(dest: config[:dest])
+  end
+
+  private_lane :buildInternal do |opt|
+        gradle(
+            task: "assemble#{opt[:dest]}",
+        )
+  end
+
+  private_lane :crashlyticsInternal do |opt|
+        crashlytics(
+          apk_path: "app/build/outputs/apk/#{opt[:path]}/app-#{opt[:apkName]}.apk",
+        )
+  end
+
+  lane :deployBeta do
+    gradle(task: "assembleRelease")
+    supply(
+        json_key: './app/fastlane.json',
+        track: 'beta',
+        skip_upload_metadata: 'true',
+        check_superseded_tracks: 'true'
+    )
+  end
+
+  desc "Runs all the tests"
+  lane :test do
+    gradle(task: "test")
+  end
+
+  desc "Submit a new Beta Build to Crashlytics Beta"
+  lane :beta do
+    gradle(task: "assembleRelease")
+    crashlytics
+
+    # sh "your_script.sh"
+    # You can also use other beta testing services here
+  end
+
+  desc "Deploy a new version to the Google Play"
+  lane :deploy do
+    gradle(task: "assembleRelease")
+    supply
+  end
+
+  # You can define as many lanes as you want
+
+  after_all do |lane|
+    # This block is called, only if the executed lane was successful
+
+    # slack(
+    #   message: "Successfully deployed new App Update."
+    # )
+  end
+
+  error do |lane, exception|
+    # slack(
+    #   message: exception.message,
+    #   success: false
+    # )
+  end
+end
+
+
+# More information about multiple platforms in fastlane: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Platforms.md
+# All available actions: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Actions.md
+
+# fastlane reports which actions are used
+# No personal data is sent or shared. Learn more at https://github.com/fastlane/enhancer

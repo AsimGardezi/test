@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/deleteAll"
+        android:title="@string/disappear_all_messages" />
+    <item
+        android:id="@+id/call"
+        android:title="@string/call" />
+
+    <item
+        android:id="@+id/videoCall"
+        android:title="@string/video_call" />
+
+    <item
+        android:id="@+id/unmute"
+        android:title="@string/unmute" />
+
+    <item
+        android:id="@+id/disappearUser"
+        android:title="@string/make_user_disappear" />
+</menu>

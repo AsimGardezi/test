@@ -1,0 +1,158 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'io.fabric'
+apply plugin: 'realm-android'
+
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.31.2'
+    }
+}
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+    maven { url 'https://jitpack.io' }
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "com.disappears.android"
+
+        //We have to adjust TLS 1.2 for Android OS < 21
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 45
+        versionName "2.05"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        resValue "string", "api_base", "https://api.disappears.com/"
+        resValue "string", "feedback_mail", "feedback@disappears.com"
+        resValue "string", "about_webpage", "https://www.disappears.com/"
+        resValue "string", "agoraAppId", "5e643780c8044c919e58e68cbb74315d"
+        resValue "string", "serverSha", "sha256/wCjHa6dAZSsrEYeYkF3AS4IS2wZ8cHpJOhH6Xuk/7ew="
+        resValue "string", "app_name", "Vanish Dev"
+        resValue "string", "disappears_file_provider", "com.disappears.android.dev.fileprovider"
+        resValue "string", "terms_of_service", "https://www.disappears.com/privacy"
+        proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        multiDexEnabled true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('certs/disappears-key.jks')
+            storePassword "Steelhead@8"
+            keyAlias 'Disappears'
+            keyPassword "Steelhead@3"
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+    }
+
+    buildTypes {
+        debug {
+            applicationIdSuffix ".dev"
+            debuggable true
+            buildConfigField "boolean", "logging", "true"
+            minifyEnabled false
+        }
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+            resValue "string", "app_name", "Vanish"
+            resValue "string", "disappears_file_provider", "com.disappears.android.fileprovider"
+            buildConfigField "boolean", "logging", "false"
+        }
+        stage {
+            initWith(buildTypes.debug)
+            resValue "string", "app_name", "Vanish Stage"
+            applicationIdSuffix ".stage"
+            resValue "string", "serverSha", "sha256/P4x7JjowK8u4zrX7HqsW05fxTBc3gPeHL8GEPG6V0/g="
+            resValue "string", "api_base", "https://staging.disappears.com/"
+            resValue "string", "disappears_file_provider", "com.disappears.android.stage.fileprovider"
+        }
+    }
+
+    sourceSets {
+        main {
+            //    jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+        exclude 'org/apache/http/version.properties'
+        exclude 'org/apache/http/client/version.properties'
+    }
+}
+
+androidExtensions {
+    experimental = true
+}
+
+dependencies {
+
+    implementation 'com.jakewharton.timber:timber:4.7.0'
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation project(':websocket')
+    implementation('com.crashlytics.sdk.android:crashlytics:2.10.1@aar') {
+        transitive = true
+    }
+
+    implementation "org.koin:koin-core:$koin_version"
+    implementation "org.koin:koin-android:$koin_version"
+    implementation "org.koin:koin-android-architecture:$koin_version"
+    implementation "com.github.KucherenkoIhor:RxValidationTextInputLayout:0.2.2"
+    implementation "androidx.multidex:multidex:2.0.1"
+    implementation "com.google.android.material:material:1.1.0"
+    implementation "androidx.legacy:legacy-support-v13:1.0.0"
+    implementation "me.relex:circleindicator:2.1.4"
+    implementation "com.makeramen:roundedimageview:2.3.0"
+    implementation "com.tbruyelle.rxpermissions2:rxpermissions:0.9.5"
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofit_version"
+    implementation "com.squareup.okhttp3:logging-interceptor:$okhttp_version"
+    implementation "com.github.franmontiel:PersistentCookieJar:v1.0.1"
+    implementation "io.reactivex.rxjava2:rxandroid:$rxandroid_version"
+    implementation "io.reactivex.rxjava2:rxjava:$rxjava_version"
+    //Glide
+    implementation "com.github.bumptech.glide:glide:$glide_version"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glide_version"
+    annotationProcessor "androidx.annotation:annotation:1.1.0"
+
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.github.stfalcon:chatkit:0.2.2'
+    implementation 'com.madgag.spongycastle:prov:1.54.0.0'
+    implementation 'com.google.firebase:firebase-messaging:17.3.1'
+    //Realm
+    kapt 'dk.ilios:realmfieldnameshelper:1.1.1'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+    implementation 'com.bugfender.sdk:android:1.1.10'
+    //Touch ID
+    implementation 'androidx.biometric:biometric:1.0.1'
+    api project(':agora')
+
+    implementation "androidx.core:core-ktx:1.2.0"
+}
+apply plugin: 'com.google.gms.google-services'

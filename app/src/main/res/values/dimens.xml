@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="font_22">22sp</dimen>
+    <dimen name="onboarding_button_width">170dp</dimen>
+    <dimen name="enable_touch_id_button_width">300dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="padding_8">8dp</dimen>
+    <dimen name="font_18">18sp</dimen>
+    <dimen name="padding_16">16dp</dimen>
+    <dimen name="font_16">16sp</dimen>
+    <dimen name="top_margin_big">60dp</dimen>
+    <dimen name="bottom_margin_big">60dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="chat_date_font_size">12sp</dimen>
+</resources>

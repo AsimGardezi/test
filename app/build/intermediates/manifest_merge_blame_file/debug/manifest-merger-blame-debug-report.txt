@@ -1,0 +1,649 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.disappears.android.dev"
+4    android:versionCode="45"
+5    android:versionName="2.05" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_CONTACTS" />
+11-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:6:5-72
+11-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:6:22-69
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:7:5-80
+12-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:7:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:8:5-81
+13-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:9:5-68
+14-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:9:22-65
+15    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+15-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:10:5-72
+15-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:10:22-69
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:11:5-77
+16-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:11:22-74
+17    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+17-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:12:5-81
+17-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:13:5-67
+18-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:13:22-64
+19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+19-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:14:5-71
+19-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:14:22-68
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:15:5-65
+20-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:15:22-62
+21    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+21-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:16:5-80
+21-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:16:22-77
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:17:5-79
+22-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:17:22-76
+23    <uses-permission android:name="android.permission.BLUETOOTH" />
+23-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:18:5-68
+23-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:18:22-65
+24    <uses-permission android:name="android.permission.USE_FINGERPRINT" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+24-->[androidx.biometric:biometric:1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/74def6b2edb11c7dae22efdd4abe11ee/biometric-1.0.1/AndroidManifest.xml:25:5-74
+24-->[androidx.biometric:biometric:1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/74def6b2edb11c7dae22efdd4abe11ee/biometric-1.0.1/AndroidManifest.xml:25:22-71
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+25-->[com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:26:5-82
+25-->[com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:26:22-79
+26
+27    <application
+27-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:21:5-252:19
+28        android:name="com.disappears.android.DisappearsApp"
+28-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:22:9-38
+29        android:allowBackup="false"
+29-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:23:9-36
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/2c203faaef5c915b410984adb9adfb81/core-1.2.0/AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:fullBackupContent="false"
+32-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:24:9-42
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:25:9-43
+34        android:label="@string/app_name"
+34-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:26:9-41
+35        android:networkSecurityConfig="@xml/network_security_config"
+35-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:27:9-69
+36        android:requestLegacyExternalStorage="true"
+36-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:31:9-52
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:28:9-54
+38        android:supportsRtl="true"
+38-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:29:9-35
+39        android:testOnly="true"
+40        android:theme="@style/AppTheme" >
+40-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:30:9-40
+41        <activity
+41-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:34:9-36:49
+42            android:name="com.disappears.android.flow.identity_backup.IdentityBackup"
+42-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:35:13-64
+43            android:theme="@style/LoginTheme" />
+43-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:36:13-46
+44        <activity
+44-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:38:9-40:49
+45            android:name="com.disappears.android.flow.fingerprint.ThumbVerification"
+45-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:39:13-63
+46            android:theme="@style/LoginTheme" />
+46-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:40:13-46
+47        <activity
+47-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:42:9-53:20
+48            android:name="com.disappears.android.flow.onboarding.OnBoardingActivity"
+48-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:43:13-63
+49            android:configChanges="orientation|keyboardHidden|screenSize"
+49-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:44:13-74
+50            android:label="@string/app_name"
+50-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:45:13-45
+51            android:screenOrientation="portrait"
+51-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:46:13-49
+52            android:theme="@style/AppTheme.NoActionBar"
+52-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:47:13-56
+53            android:windowSoftInputMode="adjustPan" >
+53-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:48:13-52
+54            <intent-filter>
+54-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:49:13-52:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:50:17-69
+55-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:50:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:51:17-77
+57-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:51:27-74
+58            </intent-filter>
+59        </activity>
+60        <activity
+60-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:55:9-90:20
+61            android:name="com.disappears.android.flow.signin.LoginActivity"
+61-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:56:13-54
+62            android:configChanges="orientation|keyboardHidden|screenSize"
+62-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:57:13-74
+63            android:label="@string/title_activity_login"
+63-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:58:13-57
+64            android:screenOrientation="portrait"
+64-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:59:13-49
+65            android:theme="@style/LoginTheme"
+65-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:60:13-46
+66            android:windowSoftInputMode="stateVisible|adjustPan" >
+66-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:61:13-65
+67
+68            <!--
+69            Handling the files with mimeType="application/vanish"
+70            and any file extension
+71            -->
+72            <intent-filter>
+72-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:64:13-75:29
+73                <action android:name="android.intent.action.SEND" />
+73-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:65:17-68
+73-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:65:25-66
+74                <action android:name="android.intent.action.VIEW" />
+74-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:66:17-68
+74-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:66:25-66
+75
+76                <category android:name="android.intent.category.DEFAULT" />
+76-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:67:17-75
+76-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:67:27-73
+77                <category android:name="android.intent.category.BROWSABLE" />
+77-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:68:17-77
+77-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:68:27-75
+78
+79                <data android:host="*" />
+79-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:70:17-41
+79-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:70:23-39
+80                <data android:mimeType="application/vanish" />
+80-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:70:17-41
+80-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:71:23-60
+81                <data android:pathPattern=".*" />
+81-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:70:17-41
+81-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:72:23-47
+82                <data android:scheme="content" />
+82-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:70:17-41
+82-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:73:23-47
+83                <data android:scheme="file" />
+83-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:70:17-41
+83-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:73:23-47
+84            </intent-filter>
+85
+86            <!--
+87                 Handling the files with any mimeType
+88                and file extension ".vanish"
+89            -->
+90            <intent-filter>
+90-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:79:13-89:29
+91                <action android:name="android.intent.action.VIEW" />
+91-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:66:17-68
+91-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:66:25-66
+92
+93                <category android:name="android.intent.category.DEFAULT" />
+93-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:67:17-75
+93-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:67:27-73
+94                <category android:name="android.intent.category.BROWSABLE" />
+94-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:68:17-77
+94-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:68:27-75
+95
+96                <data android:host="*" />
+96-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:70:17-41
+96-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:70:23-39
+97                <data android:mimeType="*/*" />
+97-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:70:17-41
+97-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:71:23-60
+98                <data android:pathPattern=".*" />
+98-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:70:17-41
+98-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:72:23-47
+99                <data android:scheme="content" />
+99-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:70:17-41
+99-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:73:23-47
+100                <data android:scheme="file" />
+100-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:70:17-41
+100-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:73:23-47
+101            </intent-filter>
+102        </activity>
+103        <activity
+103-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:92:9-98:68
+104            android:name="com.disappears.android.flow.signup.SignUpActivity"
+104-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:93:13-55
+105            android:configChanges="orientation|keyboardHidden|screenSize"
+105-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:94:13-74
+106            android:label="@string/title_activity_signup"
+106-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:95:13-58
+107            android:screenOrientation="portrait"
+107-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:96:13-49
+108            android:theme="@style/LoginTheme"
+108-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:97:13-46
+109            android:windowSoftInputMode="stateVisible|adjustPan" />
+109-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:98:13-65
+110        <activity
+110-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:100:9-106:55
+111            android:name="com.disappears.android.flow.profile.SetUpProfileActivity"
+111-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:101:13-62
+112            android:configChanges="orientation|keyboardHidden|screenSize"
+112-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:102:13-74
+113            android:label="@string/title_activity_setup_profile"
+113-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:103:13-65
+114            android:screenOrientation="portrait"
+114-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:104:13-49
+115            android:theme="@style/LoginTheme"
+115-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:105:13-46
+116            android:windowSoftInputMode="adjustPan" />
+116-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:106:13-52
+117        <activity
+117-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:108:9-113:59
+118            android:name="com.disappears.android.flow.dashboard.DashboardActivity"
+118-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:109:13-61
+119            android:configChanges="orientation|keyboardHidden|screenSize"
+119-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:110:13-74
+120            android:label="@string/title_activity_dashboard"
+120-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:111:13-61
+121            android:screenOrientation="portrait"
+121-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:112:13-49
+122            android:theme="@style/AppTheme.NoActionBar" />
+122-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:113:13-56
+123        <activity
+123-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:115:9-120:59
+124            android:name="com.disappears.android.flow.contacts.details.ContactDetailsActivity"
+124-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:116:13-73
+125            android:configChanges="orientation|keyboardHidden|screenSize"
+125-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:117:13-74
+126            android:label="@string/title_contact_details"
+126-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:118:13-58
+127            android:screenOrientation="portrait"
+127-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:119:13-49
+128            android:theme="@style/AppTheme.NoActionBar" />
+128-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:120:13-56
+129        <activity
+129-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:122:9-132:20
+130            android:name="com.disappears.android.flow.chats.create.group.CreateGroupChatActivity"
+130-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:123:13-76
+131            android:configChanges="orientation|keyboardHidden|screenSize"
+131-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:124:13-74
+132            android:label="@string/title_activity_create_group_chat"
+132-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:125:13-69
+133            android:parentActivityName="com.disappears.android.flow.dashboard.DashboardActivity"
+133-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:126:13-75
+134            android:screenOrientation="portrait"
+134-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:127:13-49
+135            android:theme="@style/AppTheme.NoActionBar" >
+135-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:128:13-56
+136            <meta-data
+136-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:129:13-131:91
+137                android:name="android.support.PARENT_ACTIVITY"
+137-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:130:17-63
+138                android:value="com.disappears.android.flow.dashboard.DashboardActivity" />
+138-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:131:17-88
+139        </activity>
+140        <activity
+140-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:134:9-144:20
+141            android:name="com.disappears.android.flow.chats.create.CreateChatActivity"
+141-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:135:13-65
+142            android:configChanges="orientation|keyboardHidden|screenSize"
+142-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:136:13-74
+143            android:label="@string/title_activity_create_chat"
+143-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:137:13-63
+144            android:parentActivityName="com.disappears.android.flow.dashboard.DashboardActivity"
+144-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:138:13-75
+145            android:screenOrientation="portrait"
+145-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:139:13-49
+146            android:theme="@style/AppTheme.NoActionBar" >
+146-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:140:13-56
+147            <meta-data
+147-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:129:13-131:91
+148                android:name="android.support.PARENT_ACTIVITY"
+148-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:130:17-63
+149                android:value="com.disappears.android.flow.dashboard.DashboardActivity" />
+149-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:131:17-88
+150        </activity>
+151        <activity
+151-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:146:9-155:20
+152            android:name="com.disappears.android.flow.contacts.search.SearchFriendActivity"
+152-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:147:13-70
+153            android:configChanges="orientation|keyboardHidden|screenSize"
+153-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:148:13-74
+154            android:label="@string/title_friend_search"
+154-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:149:13-56
+155            android:screenOrientation="portrait"
+155-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:150:13-49
+156            android:theme="@style/AppTheme.NoActionBar" >
+156-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:151:13-56
+157            <meta-data
+157-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:152:13-154:54
+158                android:name="android.app.searchable"
+158-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:153:17-54
+159                android:resource="@xml/searchable" />
+159-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:154:17-51
+160        </activity>
+161        <activity
+161-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:157:9-162:59
+162            android:name="com.disappears.android.flow.help.HelpActivity"
+162-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:158:13-51
+163            android:configChanges="orientation|keyboardHidden|screenSize"
+163-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:159:13-74
+164            android:label="@string/title_activity_help"
+164-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:160:13-56
+165            android:screenOrientation="portrait"
+165-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:161:13-49
+166            android:theme="@style/AppTheme.NoActionBar" />
+166-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:162:13-56
+167        <activity
+167-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:164:9-174:20
+168            android:name="com.disappears.android.flow.chats.messages.MessageListActivity"
+168-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:165:13-68
+169            android:configChanges="orientation|keyboardHidden|screenSize"
+169-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:166:13-74
+170            android:label="@string/title_message_list"
+170-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:167:13-55
+171            android:parentActivityName="com.disappears.android.flow.dashboard.DashboardActivity"
+171-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:168:13-75
+172            android:screenOrientation="portrait"
+172-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:169:13-49
+173            android:theme="@style/AppTheme.NoActionBar" >
+173-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:170:13-56
+174            <meta-data
+174-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:129:13-131:91
+175                android:name="android.support.PARENT_ACTIVITY"
+175-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:130:17-63
+176                android:value=".flow.dashboard.DashboardActivity" />
+176-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:131:17-88
+177        </activity>
+178        <activity
+178-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:176:9-180:60
+179            android:name="com.disappears.android.flow.photo.FullScreenPhotoPreviewActivity"
+179-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:177:13-70
+180            android:configChanges="orientation|keyboardHidden|screenSize"
+180-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:178:13-74
+181            android:screenOrientation="unspecified"
+181-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:179:13-52
+182            android:theme="@style/FullscreenTransparent" />
+182-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:180:13-57
+183        <activity
+183-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:182:9-187:54
+184            android:name="com.disappears.android.flow.call.IncomingCallActivity"
+184-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:183:13-59
+185            android:configChanges="orientation|keyboardHidden|screenSize"
+185-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:185:13-74
+186            android:parentActivityName="com.disappears.android.flow.onboarding.OnBoardingActivity"
+186-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:184:13-77
+187            android:screenOrientation="portrait"
+187-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:186:13-49
+188            android:theme="@style/FullscreenTheme" />
+188-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:187:13-51
+189
+190        <!-- <activity -->
+191        <!-- android:name="io.agora.openvcall.ui.CallActivity" -->
+192        <!-- android:configChanges="orientation|keyboardHidden|screenSize" -->
+193        <!-- android:screenOrientation="portrait" -->
+194        <!-- android:theme="@style/FullscreenTheme"/> -->
+195
+196        <provider
+196-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:195:9-203:20
+197            android:name="androidx.core.content.FileProvider"
+197-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:196:13-62
+198            android:authorities="@string/disappears_file_provider"
+198-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:197:13-67
+199            android:exported="false"
+199-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:198:13-37
+200            android:grantUriPermissions="true" >
+200-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:199:13-47
+201            <meta-data
+201-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:200:13-202:54
+202                android:name="android.support.FILE_PROVIDER_PATHS"
+202-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:201:17-67
+203                android:resource="@xml/file_paths" />
+203-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:202:17-51
+204        </provider>
+205
+206        <service
+206-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:205:9-212:19
+207            android:name="com.disappears.android.service.MessageService"
+207-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:206:13-51
+208            android:exported="false"
+208-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:207:13-37
+209            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" >
+209-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:208:13-84
+210            <intent-filter>
+210-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:209:13-211:29
+211                <action android:name="android.telecom.ConnectionService" />
+211-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:210:17-76
+211-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:210:25-73
+212            </intent-filter>
+213        </service>
+214        <service
+214-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:213:9-220:19
+215            android:name="com.disappears.android.service.DisappearsConnectionService"
+215-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:214:13-64
+216            android:label="@string/connection_service_label"
+216-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:215:13-61
+217            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" >
+217-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:216:13-84
+218            <intent-filter>
+218-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:209:13-211:29
+219                <action android:name="android.telecom.ConnectionService" />
+219-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:210:17-76
+219-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:210:25-73
+220            </intent-filter>
+221        </service>
+222        <service android:name="com.disappears.android.service.DisappearsFirebaseMessagingService" >
+222-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:221:9-225:19
+222-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:221:18-76
+223            <intent-filter>
+223-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:222:13-224:29
+224                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+224-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:223:17-78
+224-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:223:25-75
+225            </intent-filter>
+226        </service>
+227        <service android:name="com.disappears.android.service.DisappearsFirebaseInstanceIDService" >
+227-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:226:9-230:19
+227-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:226:18-77
+228            <intent-filter>
+228-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:227:13-229:29
+229                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+229-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:228:17-80
+229-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:228:25-77
+230            </intent-filter>
+231        </service>
+232
+233        <meta-data
+233-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:232:9-234:72
+234            android:name="io.fabric.ApiKey"
+234-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:233:13-44
+235            android:value="c8aea3a092aeace9732a289ef3a02f4ad5594c1c" />
+235-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:234:13-69
+236        <meta-data
+236-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:235:9-237:57
+237            android:name="com.google.firebase.messaging.default_notification_icon"
+237-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:236:13-83
+238            android:resource="@drawable/ic_stat_logo" />
+238-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:237:13-54
+239        <!--
+240 Set color used with incoming notification messages. This is used when no color is set for the incoming
+241             notification message. See README(https://goo.gl/6BKBk7) for more.
+242        -->
+243        <meta-data
+243-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:242:9-244:52
+244            android:name="com.google.firebase.messaging.default_notification_color"
+244-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:243:13-84
+245            android:resource="@color/lightGreen" />
+245-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:244:13-49
+246        <meta-data
+246-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:245:9-247:50
+247            android:name="com.google.firebase.messaging.default_notification_channel"
+247-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:246:13-86
+248            android:value="default_channel_id" />
+248-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:247:13-47
+249
+250        <uses-library
+250-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:249:9-251:40
+251            android:name="org.apache.http.legacy"
+251-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:250:13-50
+252            android:required="false" />
+252-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:251:13-37
+253
+254        <activity
+254-->[:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-26:52
+255            android:name="com.disappears.android.agora.openvcall.ui.MainActivity"
+255-->[:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-82
+256            android:configChanges="orientation|keyboardHidden|screenSize"
+256-->[:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-74
+257            android:label="@string/app_name"
+257-->[:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-45
+258            android:screenOrientation="portrait" />
+258-->[:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-49
+259        <activity
+259-->[:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-32:54
+260            android:name="com.disappears.android.agora.openvcall.ui.ChatActivity"
+260-->[:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-82
+261            android:configChanges="orientation|keyboardHidden|screenSize"
+261-->[:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-74
+262            android:parentActivityName="com.disappears.android.agora.openvcall.ui.MainActivity"
+262-->[:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-96
+263            android:screenOrientation="portrait"
+263-->[:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-49
+264            android:theme="@style/FullscreenTheme" />
+264-->[:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-51
+265        <activity
+265-->[:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:9-37:52
+266            android:name="com.disappears.android.agora.openvcall.ui.SettingsActivity"
+266-->[:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-86
+267            android:configChanges="orientation|keyboardHidden|screenSize"
+267-->[:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-74
+268            android:label="@string/label_settings"
+268-->[:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-51
+269            android:screenOrientation="portrait" />
+269-->[:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-49
+270        <activity
+270-->[androidx.biometric:biometric:1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/74def6b2edb11c7dae22efdd4abe11ee/biometric-1.0.1/AndroidManifest.xml:28:9-31:67
+271            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
+271-->[androidx.biometric:biometric:1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/74def6b2edb11c7dae22efdd4abe11ee/biometric-1.0.1/AndroidManifest.xml:29:13-78
+272            android:exported="true"
+272-->[androidx.biometric:biometric:1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/74def6b2edb11c7dae22efdd4abe11ee/biometric-1.0.1/AndroidManifest.xml:30:13-36
+273            android:theme="@style/DeviceCredentialHandlerTheme" />
+273-->[androidx.biometric:biometric:1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/74def6b2edb11c7dae22efdd4abe11ee/biometric-1.0.1/AndroidManifest.xml:31:13-64
+274        <!--
+275             FirebaseMessagingService performs security checks at runtime,
+276             no need for explicit permissions despite exported="true"
+277        -->
+278        <service
+278-->[com.google.firebase:firebase-messaging:17.3.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9a03c5ebc61e3ad5b8ea2288da09fb10/jetified-firebase-messaging-17.3.1/AndroidManifest.xml:28:9-34:19
+279            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+279-->[com.google.firebase:firebase-messaging:17.3.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9a03c5ebc61e3ad5b8ea2288da09fb10/jetified-firebase-messaging-17.3.1/AndroidManifest.xml:29:13-82
+280            android:exported="true" >
+280-->[com.google.firebase:firebase-messaging:17.3.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9a03c5ebc61e3ad5b8ea2288da09fb10/jetified-firebase-messaging-17.3.1/AndroidManifest.xml:30:13-36
+281            <intent-filter android:priority="-500" >
+281-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:222:13-224:29
+282                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+282-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:223:17-78
+282-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:223:25-75
+283            </intent-filter>
+284        </service>
+285        <service
+285-->[com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:29:9-35:19
+286            android:name="com.google.firebase.components.ComponentDiscoveryService"
+286-->[com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:30:13-84
+287            android:exported="false" >
+287-->[com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:31:13-37
+288            <meta-data
+288-->[com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:32:13-34:85
+289                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+289-->[com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:33:17-96
+290                android:value="com.google.firebase.components.ComponentRegistrar" />
+290-->[com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:34:17-82
+291        </service>
+292
+293        <receiver
+293-->[com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:37:9-44:20
+294            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+294-->[com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:38:13-78
+295            android:exported="true"
+295-->[com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:39:13-36
+296            android:permission="com.google.android.c2dm.permission.SEND" >
+296-->[com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:40:13-73
+297            <intent-filter>
+297-->[com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:41:13-43:29
+298                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+298-->[com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:42:17-81
+298-->[com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:42:25-78
+299            </intent-filter>
+300        </receiver>
+301        <!--
+302             FirebaseInstanceIdService performs security checks at runtime,
+303             no need for explicit permissions despite exported="true"
+304        -->
+305        <service
+305-->[com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:50:9-56:19
+306            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+306-->[com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:51:13-77
+307            android:exported="true" >
+307-->[com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:52:13-36
+308            <intent-filter android:priority="-500" >
+308-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:227:13-229:29
+309                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+309-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:228:17-80
+309-->/Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:228:25-77
+310            </intent-filter>
+311        </service>
+312
+313        <provider
+313-->[com.google.firebase:firebase-common:16.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/fcc1875890e7a5c96ef689080db9e0fd/jetified-firebase-common-16.0.1/AndroidManifest.xml:10:9-14:39
+314            android:name="com.google.firebase.provider.FirebaseInitProvider"
+314-->[com.google.firebase:firebase-common:16.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/fcc1875890e7a5c96ef689080db9e0fd/jetified-firebase-common-16.0.1/AndroidManifest.xml:11:13-77
+315            android:authorities="com.disappears.android.dev.firebaseinitprovider"
+315-->[com.google.firebase:firebase-common:16.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/fcc1875890e7a5c96ef689080db9e0fd/jetified-firebase-common-16.0.1/AndroidManifest.xml:12:13-72
+316            android:exported="false"
+316-->[com.google.firebase:firebase-common:16.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/fcc1875890e7a5c96ef689080db9e0fd/jetified-firebase-common-16.0.1/AndroidManifest.xml:13:13-37
+317            android:initOrder="100" />
+317-->[com.google.firebase:firebase-common:16.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/fcc1875890e7a5c96ef689080db9e0fd/jetified-firebase-common-16.0.1/AndroidManifest.xml:14:13-36
+318
+319        <activity
+319-->[com.google.android.gms:play-services-base:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9d355070cee5d1105dc84fc2acac6152/jetified-play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
+320            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+320-->[com.google.android.gms:play-services-base:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9d355070cee5d1105dc84fc2acac6152/jetified-play-services-base-15.0.1/AndroidManifest.xml:24:13-79
+321            android:exported="false"
+321-->[com.google.android.gms:play-services-base:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9d355070cee5d1105dc84fc2acac6152/jetified-play-services-base-15.0.1/AndroidManifest.xml:25:13-37
+322            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+322-->[com.google.android.gms:play-services-base:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9d355070cee5d1105dc84fc2acac6152/jetified-play-services-base-15.0.1/AndroidManifest.xml:26:13-72
+323
+324        <meta-data
+324-->[com.google.android.gms:play-services-basement:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1f046eea091e971ef3e66ec68a6d21fd/jetified-play-services-basement-15.0.1/AndroidManifest.xml:23:9-25:69
+325            android:name="com.google.android.gms.version"
+325-->[com.google.android.gms:play-services-basement:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1f046eea091e971ef3e66ec68a6d21fd/jetified-play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
+326            android:value="@integer/google_play_services_version" />
+326-->[com.google.android.gms:play-services-basement:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1f046eea091e971ef3e66ec68a6d21fd/jetified-play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
+327
+328        <provider
+328-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/18540446d4d16bf91898a580a159184f/jetified-crashlytics-2.10.1/AndroidManifest.xml:19:9-23:38
+329            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+329-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/18540446d4d16bf91898a580a159184f/jetified-crashlytics-2.10.1/AndroidManifest.xml:20:13-75
+330            android:authorities="com.disappears.android.dev.crashlyticsinitprovider"
+330-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/18540446d4d16bf91898a580a159184f/jetified-crashlytics-2.10.1/AndroidManifest.xml:21:13-75
+331            android:exported="false"
+331-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/18540446d4d16bf91898a580a159184f/jetified-crashlytics-2.10.1/AndroidManifest.xml:22:13-37
+332            android:initOrder="90" />
+332-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/18540446d4d16bf91898a580a159184f/jetified-crashlytics-2.10.1/AndroidManifest.xml:23:13-35
+333
+334        <activity
+334-->[com.bugfender.sdk:android:1.1.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7db58e4686bd7b30dd00ecfc232c75b1/jetified-android-1.1.10/AndroidManifest.xml:15:9-17:58
+335            android:name="com.bugfender.sdk.internal.ui.FeedbackActivity"
+335-->[com.bugfender.sdk:android:1.1.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7db58e4686bd7b30dd00ecfc232c75b1/jetified-android-1.1.10/AndroidManifest.xml:16:13-74
+336            android:windowSoftInputMode="adjustResize" />
+336-->[com.bugfender.sdk:android:1.1.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7db58e4686bd7b30dd00ecfc232c75b1/jetified-android-1.1.10/AndroidManifest.xml:17:13-55
+337
+338        <provider
+338-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/62074ad474cb9fa90ee2b8878f480ff3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+339            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+339-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/62074ad474cb9fa90ee2b8878f480ff3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+340            android:authorities="com.disappears.android.dev.lifecycle-process"
+340-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/62074ad474cb9fa90ee2b8878f480ff3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+341            android:exported="false"
+341-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/62074ad474cb9fa90ee2b8878f480ff3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+342            android:multiprocess="true" />
+342-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/62074ad474cb9fa90ee2b8878f480ff3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+343    </application>
+344
+345</manifest>

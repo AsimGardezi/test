@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.bugfender.sdk:android:1.1.10@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7db58e4686bd7b30dd00ecfc232c75b1/jetified-android-1.1.10/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7db58e4686bd7b30dd00ecfc232c75b1/jetified-android-1.1.10/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7db58e4686bd7b30dd00ecfc232c75b1/jetified-android-1.1.10/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bugfender.sdk/android/1.1.10/ee1c60c9f2f3ee5ef391b00d4c1f794805556e43/android-1.1.10-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

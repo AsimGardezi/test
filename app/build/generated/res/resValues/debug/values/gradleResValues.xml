@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Values from default config. -->
+    <string name="about_webpage" translatable="false">https://www.disappears.com/</string>
+    <string name="agoraAppId" translatable="false">5e643780c8044c919e58e68cbb74315d</string>
+    <string name="api_base" translatable="false">https://api.disappears.com/</string>
+    <string name="app_name" translatable="false">Vanish Dev</string>
+    <string name="disappears_file_provider" translatable="false">com.disappears.android.dev.fileprovider</string>
+    <string name="feedback_mail" translatable="false">feedback@disappears.com</string>
+    <string name="serverSha" translatable="false">sha256/wCjHa6dAZSsrEYeYkF3AS4IS2wZ8cHpJOhH6Xuk/7ew=</string>
+    <string name="terms_of_service" translatable="false">https://www.disappears.com/privacy</string>
+
+</resources>

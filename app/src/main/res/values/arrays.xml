@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="onboardingTitles">
+        <item>Introducing VANISH</item>
+        <item>SECURE</item>
+        <item>ERASE MESSAGES</item>
+        <item>AUDIO &amp; VIDEO CALLS</item>
+    </string-array>
+
+    <string-array name="onboardingSubtitles">
+        <item>The world\'s most privacy aware messenger. Fast, Secure &amp; Reliable.</item>
+        <item>Your keys are never stored in the cloud keeping your data safe from attacks.</item>
+        <item>You can erase a message you send for an indefinite period of time. Wiping it from the receivers device.</item>
+        <item>Encrypted calls with up to 20,000 users and video up to 7.</item>
+    </string-array>
+
+    <string-array name="onboardingImages">
+        <item>The world\'s most privacy aware messenger. Fast, Secure &amp; Reliable.</item>
+        <item>Your keys are never stored in the cloud keeping your data safe from attacks.</item>
+        <item>You can erase a message you send for an indefinite period of time. Wiping it from the receivers device.</item>
+        <item>Encrypted calls with up to 20,000 users and video up to 7.</item>
+    </string-array>
+
+    <string-array name="helpTitles">
+        <item>ADD A CONTACT</item>
+        <item>ERASE A MESSAGE</item>
+        <item>VANISH A CONTACT</item>
+        <item>AUDIO &amp; VIDEO CALLS</item>
+    </string-array>
+
+    <string-array name="helpSubtitles">
+        <item>You can add a contact by visiting the Contacts tab, once there click the top right + button shown above. From there you can enter your friends username and add them.</item>
+        <item>You can erase a message by pressing down on a message, this will show you the Vanish Message from Friend button. It will then erase instantly from the other users phone.</item>
+        <item>You can vanish a contact by pressing the users profile picture once your in a chat with them, then select make user disappear. Your data will be erased instantly from the users phone.</item>
+        <item>You can create an audio call or video call by tapping the notepad button on the Chats Tab. Then tap on the friends you’d like to be in the call and select the call type.</item>
+    </string-array>
+
+    <string-array name="helpImages">
+        <item>HowTo-Contacts</item>
+        <item>HowTo-Erase</item>
+        <item>HowTo-EraseUser</item>
+        <item>HowTo-CreateCall</item>
+    </string-array>
+</resources>

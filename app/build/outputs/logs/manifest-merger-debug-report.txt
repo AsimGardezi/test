@@ -1,0 +1,919 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:2:1-254:12
+INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:2:1-254:12
+INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:2:1-254:12
+INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:2:1-254:12
+MERGED from [io.realm:realm-android-library:5.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/98051beefe42b384da2032c8497c3216/jetified-realm-android-library-5.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [io.realm:realm-android-kotlin-extensions:5.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/5e91089b9ae33134260a63b0d502ad09/jetified-realm-android-kotlin-extensions-5.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-40:12
+MERGED from [com.jakewharton.timber:timber:4.7.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/f535ae6c03c230ea0472ae1cf362a741/jetified-timber-4.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.stfalcon:chatkit:0.2.2] /Users/adeel/.gradle/caches/transforms-2/files-2.1/ea5da603cfecf91dab65a49a3d294af3/jetified-chatkit-0.2.2/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/259b1e4a6533d1fe359400837fc186dc/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.biometric:biometric:1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/74def6b2edb11c7dae22efdd4abe11ee/biometric-1.0.1/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.android:flexbox:0.2.5] /Users/adeel/.gradle/caches/transforms-2/files-2.1/dfab00de3911600660e4c9a7525444b6/jetified-flexbox-0.2.5/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/4d42a1bdb6016c2d496d48f669f03b32/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/c600d26286538981c5eb1e4ef6ca618c/legacy-support-v13-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9a03c5ebc61e3ad5b8ea2288da09fb10/jetified-firebase-messaging-17.3.1/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:16.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/fcc1875890e7a5c96ef689080db9e0fd/jetified-firebase-common-16.0.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/d87432b0ed419ab4975daf4186ceec2a/jetified-firebase-iid-interop-16.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9d355070cee5d1105dc84fc2acac6152/jetified-play-services-base-15.0.1/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/c09cbb1eeb5d591d72c289980108cbce/jetified-play-services-tasks-15.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/b38d9f2c791e8e9537c249cae5533d0a/jetified-firebase-measurement-connector-16.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1654edc7700f4af8d214f9d52e57fd4a/jetified-play-services-stats-15.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1f046eea091e971ef3e66ec68a6d21fd/jetified-play-services-basement-15.0.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7b648a2004867ec432ce97a2bab4c796/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:websocket] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/websocket/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/18540446d4d16bf91898a580a159184f/jetified-crashlytics-2.10.1/AndroidManifest.xml:2:1-26:12
+MERGED from [org.koin:koin-android-architecture:0.9.3] /Users/adeel/.gradle/caches/transforms-2/files-2.1/2a36bd2f8ed638439920ccf8e8e812ab/jetified-koin-android-architecture-0.9.3/AndroidManifest.xml:2:1-13:12
+MERGED from [org.koin:koin-android:0.9.3] /Users/adeel/.gradle/caches/transforms-2/files-2.1/bc68422ca64b3f0037de5c572526ad55/jetified-koin-android-0.9.3/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.KucherenkoIhor:RxValidationTextInputLayout:0.2.2] /Users/adeel/.gradle/caches/transforms-2/files-2.1/cb310b42cf34ef1c95ce1dd6b20bea74/jetified-RxValidationTextInputLayout-0.2.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/ee6c2cbbe0fce97309ea54e9ffc7bf19/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [me.relex:circleindicator:2.1.4] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7373891ff187f98b7dbfca8d4849b645/jetified-circleindicator-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/bde32c993c7921960c911622a274a707/jetified-roundedimageview-2.3.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] /Users/adeel/.gradle/caches/transforms-2/files-2.1/62dd48854d06ac58e671a540e83bda9e/jetified-rxpermissions-0.9.5/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.franmontiel:PersistentCookieJar:v1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/4ef203ed6eb8eabf129e902bfd707f0e/jetified-PersistentCookieJar-v1.0.1/AndroidManifest.xml:2:1-14:12
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1633849c44775e6452651e4405db8ccb/jetified-rxbinding-2.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/f864dfb9a25cf3d6a6b607193f146329/jetified-rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/02ad3b6d78045380e310819cba224894/jetified-glide-4.11.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/adeel/.gradle/caches/transforms-2/files-2.1/b4e1fb2223a021c1ee5a2ba864487c70/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/355fafd81ddc7b3424e839399b850985/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.bugfender.sdk:android:1.1.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7db58e4686bd7b30dd00ecfc232c75b1/jetified-android-1.1.10/AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.core:core-ktx:1.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/23d8fa6ec451bc85929ffab11c4f54f9/jetified-core-ktx-1.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/adeel/.gradle/caches/transforms-2/files-2.1/4f1a63a097c9e56dc566cae4131f1fe3/jetified-relinker-1.2.2/AndroidManifest.xml:2:1-9:12
+MERGED from [io.agora.rtc:full-sdk:3.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/78072107b012cd7f3bd88dd7cb353ed1/jetified-full-sdk-3.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/5fd7eb865d2304321e7f733816b634f4/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/6406b5cb052450bd7431027046ee1001/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/35b6335398b38301bb9f7916ee5dd992/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9d91255878b58e0f2932da96818ce132/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/43c4db8cdde80c166cc421228bc5a84a/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/d9df6483ffa2345c56aca5ef15a48d75/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/858f26e19bbc8d501228670b18f3227e/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/a69423a5b8b6d6b6fba5c8e9a47d4328/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/930ff81dad99a1e0b12990df394b3e9d/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/ea1a21f5a89e137a10495d56c241624d/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/2b35d2f0def9fdf75c0e533b0565a607/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/0f24c48820ba49c65203b8d806225df8/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/77d31a0712a8133b85a50d8691451293/jetified-gifdecoder-4.11.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/4efb0733b92f0785e5d5d053e6c11392/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/62074ad474cb9fa90ee2b8878f480ff3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/d6f38aaea3adeaa0a44502e58b94daf1/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/b2b13f8a44d5f253d3a60370b35bec50/fragment-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/043c842c2fb11a866d20bc7ad73655b4/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/3fe1292f8d05fcc011c97c1386e0251e/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9fba812eab6d478655fd70375c10afb1/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/27b5482425ace3fafbf6eea110db3e32/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/901f71d2bbf9007e48eb901c491f21ef/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/aa36a0c2f79836137ec115a0c4fc81b0/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/215ba670a32fe44d2058625af73f39fb/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/8934aa2b6705a08fcdc53b94fb9a3728/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/2c203faaef5c915b410984adb9adfb81/core-1.2.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/4056cee32a5577b5bf6f1d914c2e9163/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/8509056fde55e227ec636ce89ffe0f4d/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/f998269dbb9d95a5ca340407aac955a2/jetified-lifecycle-viewmodel-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/a2e899cdb6f4d7060c66457de794b383/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/5ae59af11da295f396b29267774331c2/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/deb5e8d90be4c4a5fa22dda9cca5fa18/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9abe0c9fbced2e65976614f81762122f/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/4d40cd829d216b0bce2cd3882c632e2f/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/e2dc37e037ddb3a8b91f4a0b79aa49b6/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/6c7fa38c3aa2b5f95ad1d36c5071af92/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9dcc7784d8b8dbdf0bbadd58a2b39d9b/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/29d330caaf77b98743c3aa636261b17a/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/0c2669f675ef729082d01986901c30aa/jetified-crashlytics-core-2.7.0/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9bf36551803fb07e0ee8876b8d0ad4d8/jetified-beta-1.2.10/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/adeel/.gradle/caches/transforms-2/files-2.1/925d4658fed762adcb21d6220a6a95f4/jetified-answers-1.4.7/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1f6dbc1883790c9d7c293cc700b80b0c/jetified-fabric-1.4.8/AndroidManifest.xml:22:1-33:12
+INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:2:1-254:12
+INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:2:1-254:12
+INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:2:1-254:12
+	package
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:4:5-37
+		INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:2:1-254:12
+		INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:2:1-254:12
+		INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:6:5-72
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:6:22-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:8:5-81
+MERGED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-81
+MERGED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:9:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:9:22-65
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:10:5-72
+MERGED from [androidx.biometric:biometric:1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/74def6b2edb11c7dae22efdd4abe11ee/biometric-1.0.1/AndroidManifest.xml:24:5-72
+MERGED from [androidx.biometric:biometric:1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/74def6b2edb11c7dae22efdd4abe11ee/biometric-1.0.1/AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:10:22-69
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:11:5-77
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:11:22-74
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:13:5-67
+MERGED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:23:5-67
+MERGED from [:websocket] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/websocket/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:websocket] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/websocket/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/18540446d4d16bf91898a580a159184f/jetified-crashlytics-2.10.1/AndroidManifest.xml:16:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/18540446d4d16bf91898a580a159184f/jetified-crashlytics-2.10.1/AndroidManifest.xml:16:5-67
+MERGED from [com.bugfender.sdk:android:1.1.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7db58e4686bd7b30dd00ecfc232c75b1/jetified-android-1.1.10/AndroidManifest.xml:11:5-67
+MERGED from [com.bugfender.sdk:android:1.1.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7db58e4686bd7b30dd00ecfc232c75b1/jetified-android-1.1.10/AndroidManifest.xml:11:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/0c2669f675ef729082d01986901c30aa/jetified-crashlytics-core-2.7.0/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/0c2669f675ef729082d01986901c30aa/jetified-crashlytics-core-2.7.0/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9bf36551803fb07e0ee8876b8d0ad4d8/jetified-beta-1.2.10/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9bf36551803fb07e0ee8876b8d0ad4d8/jetified-beta-1.2.10/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/adeel/.gradle/caches/transforms-2/files-2.1/925d4658fed762adcb21d6220a6a95f4/jetified-answers-1.4.7/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/adeel/.gradle/caches/transforms-2/files-2.1/925d4658fed762adcb21d6220a6a95f4/jetified-answers-1.4.7/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1f6dbc1883790c9d7c293cc700b80b0c/jetified-fabric-1.4.8/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1f6dbc1883790c9d7c293cc700b80b0c/jetified-fabric-1.4.8/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:13:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:14:5-71
+MERGED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-71
+MERGED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:14:22-68
+uses-permission#android.permission.CAMERA
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:15:5-65
+MERGED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-65
+MERGED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-65
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:15:22-62
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:16:5-80
+MERGED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+MERGED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:16:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:17:5-79
+MERGED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-79
+MERGED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:22:5-79
+MERGED from [com.bugfender.sdk:android:1.1.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7db58e4686bd7b30dd00ecfc232c75b1/jetified-android-1.1.10/AndroidManifest.xml:12:5-79
+MERGED from [com.bugfender.sdk:android:1.1.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7db58e4686bd7b30dd00ecfc232c75b1/jetified-android-1.1.10/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:18:5-68
+MERGED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-68
+MERGED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:18:22-65
+application
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:21:5-252:19
+MERGED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-38:19
+MERGED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-38:19
+MERGED from [com.jakewharton.timber:timber:4.7.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/f535ae6c03c230ea0472ae1cf362a741/jetified-timber-4.7.0/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/f535ae6c03c230ea0472ae1cf362a741/jetified-timber-4.7.0/AndroidManifest.xml:7:5-20
+MERGED from [com.github.stfalcon:chatkit:0.2.2] /Users/adeel/.gradle/caches/transforms-2/files-2.1/ea5da603cfecf91dab65a49a3d294af3/jetified-chatkit-0.2.2/AndroidManifest.xml:11:5-13:38
+MERGED from [com.github.stfalcon:chatkit:0.2.2] /Users/adeel/.gradle/caches/transforms-2/files-2.1/ea5da603cfecf91dab65a49a3d294af3/jetified-chatkit-0.2.2/AndroidManifest.xml:11:5-13:38
+MERGED from [com.google.android.material:material:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/259b1e4a6533d1fe359400837fc186dc/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/259b1e4a6533d1fe359400837fc186dc/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.biometric:biometric:1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/74def6b2edb11c7dae22efdd4abe11ee/biometric-1.0.1/AndroidManifest.xml:27:5-32:19
+MERGED from [androidx.biometric:biometric:1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/74def6b2edb11c7dae22efdd4abe11ee/biometric-1.0.1/AndroidManifest.xml:27:5-32:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9a03c5ebc61e3ad5b8ea2288da09fb10/jetified-firebase-messaging-17.3.1/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9a03c5ebc61e3ad5b8ea2288da09fb10/jetified-firebase-messaging-17.3.1/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-common:16.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/fcc1875890e7a5c96ef689080db9e0fd/jetified-firebase-common-16.0.1/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/fcc1875890e7a5c96ef689080db9e0fd/jetified-firebase-common-16.0.1/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/d87432b0ed419ab4975daf4186ceec2a/jetified-firebase-iid-interop-16.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/d87432b0ed419ab4975daf4186ceec2a/jetified-firebase-iid-interop-16.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9d355070cee5d1105dc84fc2acac6152/jetified-play-services-base-15.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9d355070cee5d1105dc84fc2acac6152/jetified-play-services-base-15.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/c09cbb1eeb5d591d72c289980108cbce/jetified-play-services-tasks-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/c09cbb1eeb5d591d72c289980108cbce/jetified-play-services-tasks-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/b38d9f2c791e8e9537c249cae5533d0a/jetified-firebase-measurement-connector-16.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/b38d9f2c791e8e9537c249cae5533d0a/jetified-firebase-measurement-connector-16.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1654edc7700f4af8d214f9d52e57fd4a/jetified-play-services-stats-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1654edc7700f4af8d214f9d52e57fd4a/jetified-play-services-stats-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1f046eea091e971ef3e66ec68a6d21fd/jetified-play-services-basement-15.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1f046eea091e971ef3e66ec68a6d21fd/jetified-play-services-basement-15.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/18540446d4d16bf91898a580a159184f/jetified-crashlytics-2.10.1/AndroidManifest.xml:18:5-24:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/18540446d4d16bf91898a580a159184f/jetified-crashlytics-2.10.1/AndroidManifest.xml:18:5-24:19
+MERGED from [org.koin:koin-android-architecture:0.9.3] /Users/adeel/.gradle/caches/transforms-2/files-2.1/2a36bd2f8ed638439920ccf8e8e812ab/jetified-koin-android-architecture-0.9.3/AndroidManifest.xml:11:5-20
+MERGED from [org.koin:koin-android-architecture:0.9.3] /Users/adeel/.gradle/caches/transforms-2/files-2.1/2a36bd2f8ed638439920ccf8e8e812ab/jetified-koin-android-architecture-0.9.3/AndroidManifest.xml:11:5-20
+MERGED from [org.koin:koin-android:0.9.3] /Users/adeel/.gradle/caches/transforms-2/files-2.1/bc68422ca64b3f0037de5c572526ad55/jetified-koin-android-0.9.3/AndroidManifest.xml:11:5-20
+MERGED from [org.koin:koin-android:0.9.3] /Users/adeel/.gradle/caches/transforms-2/files-2.1/bc68422ca64b3f0037de5c572526ad55/jetified-koin-android-0.9.3/AndroidManifest.xml:11:5-20
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] /Users/adeel/.gradle/caches/transforms-2/files-2.1/62dd48854d06ac58e671a540e83bda9e/jetified-rxpermissions-0.9.5/AndroidManifest.xml:11:5-20
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] /Users/adeel/.gradle/caches/transforms-2/files-2.1/62dd48854d06ac58e671a540e83bda9e/jetified-rxpermissions-0.9.5/AndroidManifest.xml:11:5-20
+MERGED from [com.github.franmontiel:PersistentCookieJar:v1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/4ef203ed6eb8eabf129e902bfd707f0e/jetified-PersistentCookieJar-v1.0.1/AndroidManifest.xml:12:5-20
+MERGED from [com.github.franmontiel:PersistentCookieJar:v1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/4ef203ed6eb8eabf129e902bfd707f0e/jetified-PersistentCookieJar-v1.0.1/AndroidManifest.xml:12:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/02ad3b6d78045380e310819cba224894/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/02ad3b6d78045380e310819cba224894/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/adeel/.gradle/caches/transforms-2/files-2.1/b4e1fb2223a021c1ee5a2ba864487c70/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/adeel/.gradle/caches/transforms-2/files-2.1/b4e1fb2223a021c1ee5a2ba864487c70/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/355fafd81ddc7b3424e839399b850985/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/355fafd81ddc7b3424e839399b850985/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.bugfender.sdk:android:1.1.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7db58e4686bd7b30dd00ecfc232c75b1/jetified-android-1.1.10/AndroidManifest.xml:14:5-18:19
+MERGED from [com.bugfender.sdk:android:1.1.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7db58e4686bd7b30dd00ecfc232c75b1/jetified-android-1.1.10/AndroidManifest.xml:14:5-18:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/77d31a0712a8133b85a50d8691451293/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/77d31a0712a8133b85a50d8691451293/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/62074ad474cb9fa90ee2b8878f480ff3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/62074ad474cb9fa90ee2b8878f480ff3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.core:core:1.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/2c203faaef5c915b410984adb9adfb81/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/2c203faaef5c915b410984adb9adfb81/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/29d330caaf77b98743c3aa636261b17a/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/29d330caaf77b98743c3aa636261b17a/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/0c2669f675ef729082d01986901c30aa/jetified-crashlytics-core-2.7.0/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/0c2669f675ef729082d01986901c30aa/jetified-crashlytics-core-2.7.0/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9bf36551803fb07e0ee8876b8d0ad4d8/jetified-beta-1.2.10/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9bf36551803fb07e0ee8876b8d0ad4d8/jetified-beta-1.2.10/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/adeel/.gradle/caches/transforms-2/files-2.1/925d4658fed762adcb21d6220a6a95f4/jetified-answers-1.4.7/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/adeel/.gradle/caches/transforms-2/files-2.1/925d4658fed762adcb21d6220a6a95f4/jetified-answers-1.4.7/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1f6dbc1883790c9d7c293cc700b80b0c/jetified-fabric-1.4.8/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1f6dbc1883790c9d7c293cc700b80b0c/jetified-fabric-1.4.8/AndroidManifest.xml:31:5-20
+	android:requestLegacyExternalStorage
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:31:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/2c203faaef5c915b410984adb9adfb81/core-1.2.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:29:9-35
+	android:label
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:26:9-41
+	android:fullBackupContent
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:24:9-42
+	android:roundIcon
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:28:9-54
+	android:icon
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:25:9-43
+	android:allowBackup
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:23:9-36
+		REJECTED from [com.github.stfalcon:chatkit:0.2.2] /Users/adeel/.gradle/caches/transforms-2/files-2.1/ea5da603cfecf91dab65a49a3d294af3/jetified-chatkit-0.2.2/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:30:9-40
+	android:networkSecurityConfig
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:27:9-69
+	tools:replace
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:32:9-44
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:22:9-38
+activity#com.disappears.android.flow.identity_backup.IdentityBackup
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:34:9-36:49
+	android:theme
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:36:13-46
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:35:13-64
+activity#com.disappears.android.flow.fingerprint.ThumbVerification
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:38:9-40:49
+	android:theme
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:40:13-46
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:39:13-63
+activity#com.disappears.android.flow.onboarding.OnBoardingActivity
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:42:9-53:20
+	android:screenOrientation
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:46:13-49
+	android:label
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:45:13-45
+	android:windowSoftInputMode
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:48:13-52
+	android:configChanges
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:44:13-74
+	android:theme
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:47:13-56
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:43:13-63
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:49:13-52:29
+action#android.intent.action.MAIN
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:50:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:51:17-77
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:51:27-74
+activity#com.disappears.android.flow.signin.LoginActivity
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:55:9-90:20
+	android:screenOrientation
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:59:13-49
+	android:label
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:58:13-57
+	android:windowSoftInputMode
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:61:13-65
+	android:configChanges
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:57:13-74
+	android:theme
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:60:13-46
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:56:13-54
+intent-filter#action:name:android.intent.action.SEND+action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:application/vanish+data:pathPattern:.*+data:scheme:content+data:scheme:file
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:64:13-75:29
+action#android.intent.action.SEND
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:65:17-68
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:65:25-66
+action#android.intent.action.VIEW
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:66:17-68
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:66:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:67:17-75
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:67:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:68:17-77
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:68:27-75
+data
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:70:17-41
+	android:host
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:70:23-39
+	android:scheme
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:73:23-47
+	android:pathPattern
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:72:23-47
+	android:mimeType
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:71:23-60
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:.*+data:scheme:content+data:scheme:file
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:79:13-89:29
+activity#com.disappears.android.flow.signup.SignUpActivity
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:92:9-98:68
+	android:screenOrientation
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:96:13-49
+	android:label
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:95:13-58
+	android:windowSoftInputMode
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:98:13-65
+	android:configChanges
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:94:13-74
+	android:theme
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:97:13-46
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:93:13-55
+activity#com.disappears.android.flow.profile.SetUpProfileActivity
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:100:9-106:55
+	android:screenOrientation
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:104:13-49
+	android:label
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:103:13-65
+	android:windowSoftInputMode
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:106:13-52
+	android:configChanges
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:102:13-74
+	android:theme
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:105:13-46
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:101:13-62
+activity#com.disappears.android.flow.dashboard.DashboardActivity
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:108:9-113:59
+	android:screenOrientation
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:112:13-49
+	android:label
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:111:13-61
+	android:configChanges
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:110:13-74
+	android:theme
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:113:13-56
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:109:13-61
+activity#com.disappears.android.flow.contacts.details.ContactDetailsActivity
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:115:9-120:59
+	android:screenOrientation
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:119:13-49
+	android:label
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:118:13-58
+	android:configChanges
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:117:13-74
+	android:theme
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:120:13-56
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:116:13-73
+activity#com.disappears.android.flow.chats.create.group.CreateGroupChatActivity
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:122:9-132:20
+	android:screenOrientation
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:127:13-49
+	android:parentActivityName
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:126:13-75
+	android:label
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:125:13-69
+	android:configChanges
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:124:13-74
+	android:theme
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:128:13-56
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:123:13-76
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:129:13-131:91
+	android:value
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:131:17-88
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:130:17-63
+activity#com.disappears.android.flow.chats.create.CreateChatActivity
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:134:9-144:20
+	android:screenOrientation
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:139:13-49
+	android:parentActivityName
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:138:13-75
+	android:label
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:137:13-63
+	android:configChanges
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:136:13-74
+	android:theme
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:140:13-56
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:135:13-65
+activity#com.disappears.android.flow.contacts.search.SearchFriendActivity
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:146:9-155:20
+	android:screenOrientation
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:150:13-49
+	android:label
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:149:13-56
+	android:configChanges
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:148:13-74
+	android:theme
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:151:13-56
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:147:13-70
+meta-data#android.app.searchable
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:152:13-154:54
+	android:resource
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:154:17-51
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:153:17-54
+activity#com.disappears.android.flow.help.HelpActivity
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:157:9-162:59
+	android:screenOrientation
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:161:13-49
+	android:label
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:160:13-56
+	android:configChanges
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:159:13-74
+	android:theme
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:162:13-56
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:158:13-51
+activity#com.disappears.android.flow.chats.messages.MessageListActivity
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:164:9-174:20
+	android:screenOrientation
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:169:13-49
+	android:parentActivityName
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:168:13-75
+	android:label
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:167:13-55
+	android:configChanges
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:166:13-74
+	android:theme
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:170:13-56
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:165:13-68
+activity#com.disappears.android.flow.photo.FullScreenPhotoPreviewActivity
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:176:9-180:60
+	android:screenOrientation
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:179:13-52
+	android:configChanges
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:178:13-74
+	android:theme
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:180:13-57
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:177:13-70
+activity#com.disappears.android.flow.call.IncomingCallActivity
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:182:9-187:54
+	android:screenOrientation
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:186:13-49
+	android:parentActivityName
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:184:13-77
+	android:configChanges
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:185:13-74
+	android:theme
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:187:13-51
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:183:13-59
+provider#androidx.core.content.FileProvider
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:195:9-203:20
+	android:grantUriPermissions
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:199:13-47
+	android:authorities
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:197:13-67
+	android:exported
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:198:13-37
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:196:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:200:13-202:54
+	android:resource
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:202:17-51
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:201:17-67
+service#com.disappears.android.service.MessageService
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:205:9-212:19
+	android:exported
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:207:13-37
+	android:permission
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:208:13-84
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:206:13-51
+intent-filter#action:name:android.telecom.ConnectionService
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:209:13-211:29
+action#android.telecom.ConnectionService
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:210:17-76
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:210:25-73
+service#com.disappears.android.service.DisappearsConnectionService
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:213:9-220:19
+	android:label
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:215:13-61
+	android:permission
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:216:13-84
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:214:13-64
+service#com.disappears.android.service.DisappearsFirebaseMessagingService
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:221:9-225:19
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:221:18-76
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:222:13-224:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:223:17-78
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:223:25-75
+service#com.disappears.android.service.DisappearsFirebaseInstanceIDService
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:226:9-230:19
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:226:18-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:227:13-229:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:228:17-80
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:228:25-77
+meta-data#io.fabric.ApiKey
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:232:9-234:72
+	android:value
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:234:13-69
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:233:13-44
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:235:9-237:57
+	android:resource
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:237:13-54
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:236:13-83
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:242:9-244:52
+	android:resource
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:244:13-49
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:243:13-84
+meta-data#com.google.firebase.messaging.default_notification_channel
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:245:9-247:50
+	android:value
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:247:13-47
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:246:13-86
+uses-library#org.apache.http.legacy
+ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:249:9-251:40
+	android:required
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:251:13-37
+	android:name
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml:250:13-50
+uses-sdk
+INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml
+INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml
+MERGED from [io.realm:realm-android-library:5.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/98051beefe42b384da2032c8497c3216/jetified-realm-android-library-5.1.0/AndroidManifest.xml:6:5-8:41
+MERGED from [io.realm:realm-android-library:5.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/98051beefe42b384da2032c8497c3216/jetified-realm-android-library-5.1.0/AndroidManifest.xml:6:5-8:41
+MERGED from [io.realm:realm-android-kotlin-extensions:5.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/5e91089b9ae33134260a63b0d502ad09/jetified-realm-android-kotlin-extensions-5.1.0/AndroidManifest.xml:6:5-8:41
+MERGED from [io.realm:realm-android-kotlin-extensions:5.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/5e91089b9ae33134260a63b0d502ad09/jetified-realm-android-kotlin-extensions-5.1.0/AndroidManifest.xml:6:5-8:41
+MERGED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton.timber:timber:4.7.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/f535ae6c03c230ea0472ae1cf362a741/jetified-timber-4.7.0/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/f535ae6c03c230ea0472ae1cf362a741/jetified-timber-4.7.0/AndroidManifest.xml:5:5-43
+MERGED from [com.github.stfalcon:chatkit:0.2.2] /Users/adeel/.gradle/caches/transforms-2/files-2.1/ea5da603cfecf91dab65a49a3d294af3/jetified-chatkit-0.2.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.stfalcon:chatkit:0.2.2] /Users/adeel/.gradle/caches/transforms-2/files-2.1/ea5da603cfecf91dab65a49a3d294af3/jetified-chatkit-0.2.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/259b1e4a6533d1fe359400837fc186dc/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/259b1e4a6533d1fe359400837fc186dc/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.biometric:biometric:1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/74def6b2edb11c7dae22efdd4abe11ee/biometric-1.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric:1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/74def6b2edb11c7dae22efdd4abe11ee/biometric-1.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android:flexbox:0.2.5] /Users/adeel/.gradle/caches/transforms-2/files-2.1/dfab00de3911600660e4c9a7525444b6/jetified-flexbox-0.2.5/AndroidManifest.xml:23:5-25:41
+MERGED from [com.google.android:flexbox:0.2.5] /Users/adeel/.gradle/caches/transforms-2/files-2.1/dfab00de3911600660e4c9a7525444b6/jetified-flexbox-0.2.5/AndroidManifest.xml:23:5-25:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/4d42a1bdb6016c2d496d48f669f03b32/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/4d42a1bdb6016c2d496d48f669f03b32/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/c600d26286538981c5eb1e4ef6ca618c/legacy-support-v13-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/c600d26286538981c5eb1e4ef6ca618c/legacy-support-v13-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9a03c5ebc61e3ad5b8ea2288da09fb10/jetified-firebase-messaging-17.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9a03c5ebc61e3ad5b8ea2288da09fb10/jetified-firebase-messaging-17.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/fcc1875890e7a5c96ef689080db9e0fd/jetified-firebase-common-16.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/fcc1875890e7a5c96ef689080db9e0fd/jetified-firebase-common-16.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/d87432b0ed419ab4975daf4186ceec2a/jetified-firebase-iid-interop-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/d87432b0ed419ab4975daf4186ceec2a/jetified-firebase-iid-interop-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9d355070cee5d1105dc84fc2acac6152/jetified-play-services-base-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9d355070cee5d1105dc84fc2acac6152/jetified-play-services-base-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/c09cbb1eeb5d591d72c289980108cbce/jetified-play-services-tasks-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/c09cbb1eeb5d591d72c289980108cbce/jetified-play-services-tasks-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/b38d9f2c791e8e9537c249cae5533d0a/jetified-firebase-measurement-connector-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/b38d9f2c791e8e9537c249cae5533d0a/jetified-firebase-measurement-connector-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1654edc7700f4af8d214f9d52e57fd4a/jetified-play-services-stats-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1654edc7700f4af8d214f9d52e57fd4a/jetified-play-services-stats-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1f046eea091e971ef3e66ec68a6d21fd/jetified-play-services-basement-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1f046eea091e971ef3e66ec68a6d21fd/jetified-play-services-basement-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7b648a2004867ec432ce97a2bab4c796/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7b648a2004867ec432ce97a2bab4c796/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [:websocket] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/websocket/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:websocket] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/websocket/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/18540446d4d16bf91898a580a159184f/jetified-crashlytics-2.10.1/AndroidManifest.xml:12:5-14:63
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/18540446d4d16bf91898a580a159184f/jetified-crashlytics-2.10.1/AndroidManifest.xml:12:5-14:63
+MERGED from [org.koin:koin-android-architecture:0.9.3] /Users/adeel/.gradle/caches/transforms-2/files-2.1/2a36bd2f8ed638439920ccf8e8e812ab/jetified-koin-android-architecture-0.9.3/AndroidManifest.xml:7:5-9:41
+MERGED from [org.koin:koin-android-architecture:0.9.3] /Users/adeel/.gradle/caches/transforms-2/files-2.1/2a36bd2f8ed638439920ccf8e8e812ab/jetified-koin-android-architecture-0.9.3/AndroidManifest.xml:7:5-9:41
+MERGED from [org.koin:koin-android:0.9.3] /Users/adeel/.gradle/caches/transforms-2/files-2.1/bc68422ca64b3f0037de5c572526ad55/jetified-koin-android-0.9.3/AndroidManifest.xml:7:5-9:41
+MERGED from [org.koin:koin-android:0.9.3] /Users/adeel/.gradle/caches/transforms-2/files-2.1/bc68422ca64b3f0037de5c572526ad55/jetified-koin-android-0.9.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.KucherenkoIhor:RxValidationTextInputLayout:0.2.2] /Users/adeel/.gradle/caches/transforms-2/files-2.1/cb310b42cf34ef1c95ce1dd6b20bea74/jetified-RxValidationTextInputLayout-0.2.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.KucherenkoIhor:RxValidationTextInputLayout:0.2.2] /Users/adeel/.gradle/caches/transforms-2/files-2.1/cb310b42cf34ef1c95ce1dd6b20bea74/jetified-RxValidationTextInputLayout-0.2.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/ee6c2cbbe0fce97309ea54e9ffc7bf19/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/ee6c2cbbe0fce97309ea54e9ffc7bf19/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [me.relex:circleindicator:2.1.4] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7373891ff187f98b7dbfca8d4849b645/jetified-circleindicator-2.1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [me.relex:circleindicator:2.1.4] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7373891ff187f98b7dbfca8d4849b645/jetified-circleindicator-2.1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/bde32c993c7921960c911622a274a707/jetified-roundedimageview-2.3.0/AndroidManifest.xml:7:5-43
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/bde32c993c7921960c911622a274a707/jetified-roundedimageview-2.3.0/AndroidManifest.xml:7:5-43
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] /Users/adeel/.gradle/caches/transforms-2/files-2.1/62dd48854d06ac58e671a540e83bda9e/jetified-rxpermissions-0.9.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] /Users/adeel/.gradle/caches/transforms-2/files-2.1/62dd48854d06ac58e671a540e83bda9e/jetified-rxpermissions-0.9.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.franmontiel:PersistentCookieJar:v1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/4ef203ed6eb8eabf129e902bfd707f0e/jetified-PersistentCookieJar-v1.0.1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.franmontiel:PersistentCookieJar:v1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/4ef203ed6eb8eabf129e902bfd707f0e/jetified-PersistentCookieJar-v1.0.1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1633849c44775e6452651e4405db8ccb/jetified-rxbinding-2.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1633849c44775e6452651e4405db8ccb/jetified-rxbinding-2.0.0/AndroidManifest.xml:6:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/f864dfb9a25cf3d6a6b607193f146329/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/f864dfb9a25cf3d6a6b607193f146329/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/02ad3b6d78045380e310819cba224894/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/02ad3b6d78045380e310819cba224894/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/adeel/.gradle/caches/transforms-2/files-2.1/b4e1fb2223a021c1ee5a2ba864487c70/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/adeel/.gradle/caches/transforms-2/files-2.1/b4e1fb2223a021c1ee5a2ba864487c70/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/355fafd81ddc7b3424e839399b850985/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/355fafd81ddc7b3424e839399b850985/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.bugfender.sdk:android:1.1.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7db58e4686bd7b30dd00ecfc232c75b1/jetified-android-1.1.10/AndroidManifest.xml:7:5-9:41
+MERGED from [com.bugfender.sdk:android:1.1.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7db58e4686bd7b30dd00ecfc232c75b1/jetified-android-1.1.10/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.core:core-ktx:1.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/23d8fa6ec451bc85929ffab11c4f54f9/jetified-core-ktx-1.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/23d8fa6ec451bc85929ffab11c4f54f9/jetified-core-ktx-1.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/adeel/.gradle/caches/transforms-2/files-2.1/4f1a63a097c9e56dc566cae4131f1fe3/jetified-relinker-1.2.2/AndroidManifest.xml:7:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/adeel/.gradle/caches/transforms-2/files-2.1/4f1a63a097c9e56dc566cae4131f1fe3/jetified-relinker-1.2.2/AndroidManifest.xml:7:5-43
+MERGED from [io.agora.rtc:full-sdk:3.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/78072107b012cd7f3bd88dd7cb353ed1/jetified-full-sdk-3.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.agora.rtc:full-sdk:3.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/78072107b012cd7f3bd88dd7cb353ed1/jetified-full-sdk-3.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/5fd7eb865d2304321e7f733816b634f4/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/5fd7eb865d2304321e7f733816b634f4/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/6406b5cb052450bd7431027046ee1001/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/6406b5cb052450bd7431027046ee1001/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/35b6335398b38301bb9f7916ee5dd992/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/35b6335398b38301bb9f7916ee5dd992/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9d91255878b58e0f2932da96818ce132/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9d91255878b58e0f2932da96818ce132/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/43c4db8cdde80c166cc421228bc5a84a/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/43c4db8cdde80c166cc421228bc5a84a/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/d9df6483ffa2345c56aca5ef15a48d75/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/d9df6483ffa2345c56aca5ef15a48d75/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/858f26e19bbc8d501228670b18f3227e/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/858f26e19bbc8d501228670b18f3227e/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/a69423a5b8b6d6b6fba5c8e9a47d4328/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/a69423a5b8b6d6b6fba5c8e9a47d4328/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/930ff81dad99a1e0b12990df394b3e9d/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/930ff81dad99a1e0b12990df394b3e9d/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/ea1a21f5a89e137a10495d56c241624d/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/ea1a21f5a89e137a10495d56c241624d/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/2b35d2f0def9fdf75c0e533b0565a607/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/2b35d2f0def9fdf75c0e533b0565a607/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/0f24c48820ba49c65203b8d806225df8/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/0f24c48820ba49c65203b8d806225df8/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/77d31a0712a8133b85a50d8691451293/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/77d31a0712a8133b85a50d8691451293/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/4efb0733b92f0785e5d5d053e6c11392/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/4efb0733b92f0785e5d5d053e6c11392/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/62074ad474cb9fa90ee2b8878f480ff3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/62074ad474cb9fa90ee2b8878f480ff3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/d6f38aaea3adeaa0a44502e58b94daf1/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/d6f38aaea3adeaa0a44502e58b94daf1/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/b2b13f8a44d5f253d3a60370b35bec50/fragment-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/b2b13f8a44d5f253d3a60370b35bec50/fragment-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/043c842c2fb11a866d20bc7ad73655b4/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/043c842c2fb11a866d20bc7ad73655b4/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/3fe1292f8d05fcc011c97c1386e0251e/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/3fe1292f8d05fcc011c97c1386e0251e/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9fba812eab6d478655fd70375c10afb1/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9fba812eab6d478655fd70375c10afb1/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/27b5482425ace3fafbf6eea110db3e32/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/27b5482425ace3fafbf6eea110db3e32/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/901f71d2bbf9007e48eb901c491f21ef/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/901f71d2bbf9007e48eb901c491f21ef/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/aa36a0c2f79836137ec115a0c4fc81b0/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/aa36a0c2f79836137ec115a0c4fc81b0/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/215ba670a32fe44d2058625af73f39fb/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/215ba670a32fe44d2058625af73f39fb/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/8934aa2b6705a08fcdc53b94fb9a3728/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/8934aa2b6705a08fcdc53b94fb9a3728/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/2c203faaef5c915b410984adb9adfb81/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/2c203faaef5c915b410984adb9adfb81/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/4056cee32a5577b5bf6f1d914c2e9163/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/4056cee32a5577b5bf6f1d914c2e9163/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/8509056fde55e227ec636ce89ffe0f4d/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/8509056fde55e227ec636ce89ffe0f4d/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/f998269dbb9d95a5ca340407aac955a2/jetified-lifecycle-viewmodel-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/f998269dbb9d95a5ca340407aac955a2/jetified-lifecycle-viewmodel-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/a2e899cdb6f4d7060c66457de794b383/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/a2e899cdb6f4d7060c66457de794b383/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/5ae59af11da295f396b29267774331c2/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/5ae59af11da295f396b29267774331c2/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/deb5e8d90be4c4a5fa22dda9cca5fa18/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/deb5e8d90be4c4a5fa22dda9cca5fa18/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9abe0c9fbced2e65976614f81762122f/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9abe0c9fbced2e65976614f81762122f/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/4d40cd829d216b0bce2cd3882c632e2f/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/4d40cd829d216b0bce2cd3882c632e2f/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/e2dc37e037ddb3a8b91f4a0b79aa49b6/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/e2dc37e037ddb3a8b91f4a0b79aa49b6/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/6c7fa38c3aa2b5f95ad1d36c5071af92/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/6c7fa38c3aa2b5f95ad1d36c5071af92/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9dcc7784d8b8dbdf0bbadd58a2b39d9b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9dcc7784d8b8dbdf0bbadd58a2b39d9b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/29d330caaf77b98743c3aa636261b17a/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/29d330caaf77b98743c3aa636261b17a/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/0c2669f675ef729082d01986901c30aa/jetified-crashlytics-core-2.7.0/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/0c2669f675ef729082d01986901c30aa/jetified-crashlytics-core-2.7.0/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9bf36551803fb07e0ee8876b8d0ad4d8/jetified-beta-1.2.10/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9bf36551803fb07e0ee8876b8d0ad4d8/jetified-beta-1.2.10/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/adeel/.gradle/caches/transforms-2/files-2.1/925d4658fed762adcb21d6220a6a95f4/jetified-answers-1.4.7/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/adeel/.gradle/caches/transforms-2/files-2.1/925d4658fed762adcb21d6220a6a95f4/jetified-answers-1.4.7/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1f6dbc1883790c9d7c293cc700b80b0c/jetified-fabric-1.4.8/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1f6dbc1883790c9d7c293cc700b80b0c/jetified-fabric-1.4.8/AndroidManifest.xml:27:5-43
+INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml
+INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/18540446d4d16bf91898a580a159184f/jetified-crashlytics-2.10.1/AndroidManifest.xml:14:9-60
+	android:targetSdkVersion
+		INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adeel/Downloads/Vanish.Messenger.Android-develop/app/src/main/AndroidManifest.xml
+activity#com.disappears.android.agora.openvcall.ui.MainActivity
+ADDED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-26:52
+	android:screenOrientation
+		ADDED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-49
+	android:label
+		ADDED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-45
+	android:configChanges
+		ADDED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-74
+	android:name
+		ADDED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-82
+activity#com.disappears.android.agora.openvcall.ui.ChatActivity
+ADDED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-32:54
+	android:screenOrientation
+		ADDED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-49
+	android:parentActivityName
+		ADDED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-96
+	android:configChanges
+		ADDED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-74
+	android:theme
+		ADDED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-51
+	android:name
+		ADDED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-82
+activity#com.disappears.android.agora.openvcall.ui.SettingsActivity
+ADDED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:9-37:52
+	android:screenOrientation
+		ADDED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-49
+	android:label
+		ADDED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-51
+	android:configChanges
+		ADDED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-74
+	android:name
+		ADDED from [:agora] /Users/adeel/Downloads/Vanish.Messenger.Android-develop/agora/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-86
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [androidx.biometric:biometric:1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/74def6b2edb11c7dae22efdd4abe11ee/biometric-1.0.1/AndroidManifest.xml:25:5-74
+	android:name
+		ADDED from [androidx.biometric:biometric:1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/74def6b2edb11c7dae22efdd4abe11ee/biometric-1.0.1/AndroidManifest.xml:25:22-71
+activity#androidx.biometric.DeviceCredentialHandlerActivity
+ADDED from [androidx.biometric:biometric:1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/74def6b2edb11c7dae22efdd4abe11ee/biometric-1.0.1/AndroidManifest.xml:28:9-31:67
+	android:exported
+		ADDED from [androidx.biometric:biometric:1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/74def6b2edb11c7dae22efdd4abe11ee/biometric-1.0.1/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [androidx.biometric:biometric:1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/74def6b2edb11c7dae22efdd4abe11ee/biometric-1.0.1/AndroidManifest.xml:31:13-64
+	android:name
+		ADDED from [androidx.biometric:biometric:1.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/74def6b2edb11c7dae22efdd4abe11ee/biometric-1.0.1/AndroidManifest.xml:29:13-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9a03c5ebc61e3ad5b8ea2288da09fb10/jetified-firebase-messaging-17.3.1/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9a03c5ebc61e3ad5b8ea2288da09fb10/jetified-firebase-messaging-17.3.1/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9a03c5ebc61e3ad5b8ea2288da09fb10/jetified-firebase-messaging-17.3.1/AndroidManifest.xml:29:13-82
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:26:22-79
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/73b0f64fbf51922e2ed936d9642c9bf4/jetified-firebase-iid-17.0.1/AndroidManifest.xml:51:13-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/fcc1875890e7a5c96ef689080db9e0fd/jetified-firebase-common-16.0.1/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/fcc1875890e7a5c96ef689080db9e0fd/jetified-firebase-common-16.0.1/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/fcc1875890e7a5c96ef689080db9e0fd/jetified-firebase-common-16.0.1/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/fcc1875890e7a5c96ef689080db9e0fd/jetified-firebase-common-16.0.1/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/fcc1875890e7a5c96ef689080db9e0fd/jetified-firebase-common-16.0.1/AndroidManifest.xml:11:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9d355070cee5d1105dc84fc2acac6152/jetified-play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9d355070cee5d1105dc84fc2acac6152/jetified-play-services-base-15.0.1/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9d355070cee5d1105dc84fc2acac6152/jetified-play-services-base-15.0.1/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/9d355070cee5d1105dc84fc2acac6152/jetified-play-services-base-15.0.1/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1f046eea091e971ef3e66ec68a6d21fd/jetified-play-services-basement-15.0.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1f046eea091e971ef3e66ec68a6d21fd/jetified-play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/1f046eea091e971ef3e66ec68a6d21fd/jetified-play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/18540446d4d16bf91898a580a159184f/jetified-crashlytics-2.10.1/AndroidManifest.xml:19:9-23:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/18540446d4d16bf91898a580a159184f/jetified-crashlytics-2.10.1/AndroidManifest.xml:21:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/18540446d4d16bf91898a580a159184f/jetified-crashlytics-2.10.1/AndroidManifest.xml:22:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/18540446d4d16bf91898a580a159184f/jetified-crashlytics-2.10.1/AndroidManifest.xml:23:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/adeel/.gradle/caches/transforms-2/files-2.1/18540446d4d16bf91898a580a159184f/jetified-crashlytics-2.10.1/AndroidManifest.xml:20:13-75
+activity#com.bugfender.sdk.internal.ui.FeedbackActivity
+ADDED from [com.bugfender.sdk:android:1.1.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7db58e4686bd7b30dd00ecfc232c75b1/jetified-android-1.1.10/AndroidManifest.xml:15:9-17:58
+	android:windowSoftInputMode
+		ADDED from [com.bugfender.sdk:android:1.1.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7db58e4686bd7b30dd00ecfc232c75b1/jetified-android-1.1.10/AndroidManifest.xml:17:13-55
+	android:name
+		ADDED from [com.bugfender.sdk:android:1.1.10] /Users/adeel/.gradle/caches/transforms-2/files-2.1/7db58e4686bd7b30dd00ecfc232c75b1/jetified-android-1.1.10/AndroidManifest.xml:16:13-74
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/62074ad474cb9fa90ee2b8878f480ff3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/62074ad474cb9fa90ee2b8878f480ff3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/62074ad474cb9fa90ee2b8878f480ff3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/62074ad474cb9fa90ee2b8878f480ff3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/adeel/.gradle/caches/transforms-2/files-2.1/62074ad474cb9fa90ee2b8878f480ff3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79

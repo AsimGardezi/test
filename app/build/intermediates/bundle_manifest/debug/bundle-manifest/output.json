@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.disappears.android.dev",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "BUNDLE_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 45,
+        "versionName": "2.05",
+        "outputFile": "app-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.disappears.android.dev",
+        "split": "",
+        "minSdkVersion": "21"
+      }
+    }
+  ]
+}

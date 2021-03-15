@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="lightBlack">#202020</color>
+    <color name="lightGreen">#50e3c2</color>
+    <color name="white">#ffffff</color>
+    <color name="lightGray">#D8D8D8</color>
+    <color name="profileImageBorder">#979797</color>
+    <color name="defaultBackground">#1C1C1C</color>
+    <color name="black_transparent">#77000000</color>
+    <color name="chat_bubble">#E8FCD1</color>
+    <color name="chat_toolbar_subtitle">#74D677</color>
+    <color name="agora_blue">#FF00A0EB</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lightColorAccent">#30FF4081</color>
+    <color name="dark_black">#CC262626</color>
+    <color name="transparent_75_white">#ACFFFFFF</color>
+    <color name="dark_gray">#FF55585A</color>
+    <color name="start_call_button">#4BBA53</color>
+    <color name="decline_call_button">#E32448</color>
+</resources>
